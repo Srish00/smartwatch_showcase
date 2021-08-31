@@ -16,7 +16,7 @@ document.getElementById("heart-rate").innerHTML = "";
 
 var heartbtn = document.getElementById("heart-btn");
 heartbtn.addEventListener("click", function(){
-  document.getElementById("heart-img").setAttribute("src","https://img-premium.flaticon.com/png/512/1818/premium/1818145.png?token=exp=1630435641~hmac=21f65b1c4803285918b24dc797292d27");
+  document.getElementById("heart-img").setAttribute("src","https://img-premium.flaticon.com/png/512/1818/premium/1818145.png?token=exp=1630440657~hmac=91917e7d7729abec6a418817cc32fb12");
   document.getElementById("heart-rate").innerHTML = 78;
   document.getElementById("currentTime").innerHTML = "";
 })
