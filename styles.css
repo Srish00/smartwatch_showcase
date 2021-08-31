@@ -1,0 +1,79 @@
+
+
+.nav{
+  background-color: #000;
+
+}
+body{
+  font-family:Montserrat;
+}
+h1{
+  /* font-family: Montserrat; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+h5{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.color{
+  width: 85px;
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  border-radius: 8px;
+}
+.black{
+  background-color: #23211f;
+
+}
+.orange{
+  background-color: #ca3d22;
+
+}
+.blue{
+  background-color: #565681;
+}
+.purple{
+  background-color:#8a5362;
+}
+.features-btn{
+  background-color:#bdc3c7;
+}
+.buy-btn{
+  background-color: #e67e22;
+}
+.img-section{
+  position: relative;
+}
+#currentTime{
+  border: none;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background-color: #000;;
+  color: #fff;
+}
+
+#heart-img{
+  position: absolute;
+  top:35%;
+  left: 42%;
+  animation-name: beat;
+  animation-iteration-count: infinite;
+  animation-duration: 500ms;
+}
+#heart-rate{
+  position: absolute;
+  top:53%;
+  left: 45.5%;
+  color: white;
+}
+@keyframes beat {
+  0%{
+    width: 12%;
+  }
+  100%{
+    width: 14%;
+  }
+}
