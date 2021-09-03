@@ -20,7 +20,7 @@ heartbtn.addEventListener("click", function(){
   document.getElementById("heart-rate").innerHTML = 78;
   document.getElementById("currentTime").innerHTML = "";
 });
-
+ 
 var watchImg = document.querySelector("#watch-img")
 var blackbtn = document.querySelector(".black");
 blackbtn.addEventListener("click", function(){
