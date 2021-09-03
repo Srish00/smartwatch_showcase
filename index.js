@@ -16,7 +16,7 @@ document.getElementById("heart-rate").innerHTML = "";
 
 var heartbtn = document.getElementById("heart-btn");
 heartbtn.addEventListener("click", function(){
-  document.getElementById("heart-img").setAttribute("src","https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com");
+  document.getElementById("heart-img").setAttribute("src","https://www.flaticon.com/" title="Flaticon">www.flaticon.com");
   document.getElementById("heart-rate").innerHTML = 78;
   document.getElementById("currentTime").innerHTML = "";
 });
